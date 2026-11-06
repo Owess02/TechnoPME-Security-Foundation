@@ -3,7 +3,7 @@
 **Conception, sécurisation, supervision, tests de sécurité et réponse aux incidents au sein d’une infrastructure informatique de PME.**
 
 **Auteur : AKPA SALOMON OWESS**  
-**Projet : Infrastructure Security | Network Administration | System Hardening | Security Monitoring | Vulnerability Management | Incident Response**
+**Domaines : Infrastructure Security | Network Administration | System Hardening | Security Monitoring | Vulnerability Management | Incident Response**
 
 ---
 
@@ -16,8 +16,6 @@ Le projet reproduit les fondamentaux d’un environnement professionnel : segmen
 L’infrastructure est déployée dans un environnement virtualisé isolé, permettant de travailler dans des conditions proches d’une entreprise, tout en respectant un périmètre strictement contrôlé.
 
 ## 2. Objectifs du projet
-
-Les objectifs principaux sont les suivants :
 
 - Concevoir une architecture réseau segmentée et sécurisée.
 - Déployer et administrer un pare-feu pfSense.
@@ -57,8 +55,6 @@ Le projet est réalisé exclusivement dans un environnement de laboratoire isol�
 ## 4. Architecture cible
 
 L’architecture repose sur une segmentation réseau stricte, protégée par pfSense et supervisée par Wazuh.
-
-Les zones prévues sont :
 
 | Zone | Réseau | Rôle |
 |---|---|---|
@@ -222,7 +218,7 @@ Les scénarios d’incident couvriront notamment :
 - Tentative d’accès non autorisé.
 - Modification non autorisée de fichiers critiques.
 
-La réponse aux incidents suivra le cycle NIST : préparation, détection et analyse, confinement, éradication, récupération et retour d’expérience. [186][187][191]
+La réponse aux incidents suivra le cycle NIST : préparation, détection et analyse, confinement, éradication, récupération et retour d’expérience.
 
 ## 7. Livrables attendus
 
