@@ -33,6 +33,10 @@
 
 ## Phase 3 — DHCP, DNS et connectivité
 
+- [ ] Déployer Windows Server
+- [ ] Configurer l’adresse IP statique
+- [ ] Préparer l’intégration à Active Directory
+- [ ] Documenter le rôle futur du serveur
 - [ ] Activer DHCP LAN_Users
 - [ ] Activer DHCP LAN_Guests
 - [ ] Configurer DNS Resolver

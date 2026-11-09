@@ -12,6 +12,7 @@ et les mesures de protection associées.
 | AST-001 | TPME-FW01 | Pare-feu | Toutes zones | 192.168.x.1 | Routage, filtrage, DHCP, DNS | Critique | IT |
 | AST-002 | TPME-WS01 | Poste utilisateur | LAN_Users | DHCP | Travail quotidien | Moyen | Utilisateur |
 | AST-003 | TPME-SRV01 | Serveur Linux | LAN_Servers | 192.168.20.10 | Services internes | Élevé | IT |
+| AST-007 | TPME-DC01 | Serveur Windows | LAN_Servers | 192.168.20.10 | Contrôleur de domaine futur | Critique | IT |
 | AST-004 | TPME-MON01 | Supervision | MGMT_Admin | 192.168.100.10 | Wazuh | Critique | SOC |
 | AST-005 | TPME-VULN01 | Analyse | MGMT_Admin | 192.168.100.20 | OpenVAS | Élevé | SOC |
 | AST-006 | TPME-KALI01 | Poste de test | MGMT_Admin | DHCP | Tests contrôlés | Moyen | SOC |

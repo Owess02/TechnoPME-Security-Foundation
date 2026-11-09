@@ -23,3 +23,26 @@
 - Créer les réseaux VMware isolés.
 - Déployer pfSense.
 - Configurer les interfaces réseau.
+
+## 2026-11-09 — Phase 1
+
+### Objectifs
+- Créer les réseaux VMware isolés.
+- Désactiver le DHCP VMware.
+- Documenter les sous-réseaux.
+- Préparer l’intégration de Windows Server.
+
+### Réalisations
+- Création de VMnet2 à VMnet5.
+- Configuration des sous-réseaux.
+- Désactivation du DHCP VMware.
+- Documentation des réseaux.
+
+### Difficultés
+- Aucune difficulté majeure.
+
+### Prochaines étapes
+- Déployer pfSense.
+- Configurer les interfaces.
+- Attribuer les IP.
+- Préparer Windows Server.

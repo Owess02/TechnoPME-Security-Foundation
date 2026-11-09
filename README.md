@@ -46,6 +46,7 @@ Le projet est réalisé exclusivement dans un environnement de laboratoire isol�
 |---|---|
 | pfSense | Pare-feu, routage, DHCP, DNS, segmentation et journalisation |
 | Windows 10 | Poste utilisateur durci |
+| Windows Server | Contrôleur de domaine futur, services d’entreprise et administration |
 | Ubuntu Server | Serveur Linux durci et administré |
 | Wazuh | Supervision, collecte de journaux, détection et réponse |
 | OpenVAS / Greenbone | Analyse et gestion des vulnérabilités |
@@ -59,7 +60,7 @@ L’architecture repose sur une segmentation réseau stricte, protégée par pfS
 | Zone | Réseau | Rôle |
 |---|---|---|
 | LAN_Users | 192.168.10.0/24 | Postes utilisateurs |
-| LAN_Servers | 192.168.20.0/24 | Serveurs et services internes |
+| LAN_Servers | 192.168.20.0/24 | Serveurs Windows et Linux, services internes |
 | LAN_Guests | 192.168.30.0/24 | Accès invités isolé |
 | MGMT_Admin | 192.168.100.0/24 | Administration et supervision |
 
@@ -104,6 +105,9 @@ Le schéma réseau détaillé, le plan d’adressage et la matrice des flux sero
 - [ ] Déployer Windows 10.
 - [ ] Appliquer les mesures de durcissement Windows.
 - [ ] Déployer Ubuntu Server.
+- [ ] Déployer Windows Server.
+- [ ] Préparer l’adressage statique du serveur.
+- [ ] Préparer l’intégration future à Active Directory.
 - [ ] Sécuriser SSH, UFW, Fail2ban et Auditd.
 - [ ] Appliquer le principe du moindre privilège.
 - [ ] Réduire la surface d’attaque.
