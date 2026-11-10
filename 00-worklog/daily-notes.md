@@ -46,3 +46,16 @@
 - Configurer les interfaces.
 - Attribuer les IP.
 - Préparer Windows Server.
+
+## 2026-11-10 — Phase 2
+
+### Réalisations
+- VM TPME-FW01 installée, 5 interfaces assignées et activées.
+- WebGUI accessible depuis l'hôte via MGMT_ADMIN.
+- Assistant de configuration terminé.
+
+### Difficultés
+- Ping KO : em1 reliée au mauvais VMnet. Diagnostic par tcpdump puis lecture du .vmx.
+
+### Prochaines étapes
+- DHCP sur LAN_USERS et LAN_GUESTS, DNS Resolver, règles de pare-feu.
