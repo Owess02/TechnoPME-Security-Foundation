@@ -75,3 +75,21 @@
 ### Prochaines étapes
 - Phase 4 : alias, règles de pare-feu, journalisation, tests de blocage entre zones.
 - Supprimer la règle temporaire de LAN_USERS.
+
+## 2026-11-11 — Phase 4
+
+### Réalisations
+- Alias créés (réseaux privés, hôte admin, zone serveurs, ports).
+- Règles créées sur LAN_USERS, LAN_GUESTS et MGMT_ADMIN.
+- « Default allow » désactivées sur MGMT_ADMIN.
+- Tests de blocage (serveurs, invités, administration) et d'autorisation (DNS, HTTPS) validés.
+- Logs du pare-feu consultés.
+
+### Difficultés
+- Règles saisies avec des erreurs, corrigées une par une.
+- Carte NAT de la VM Windows 10 qui contournait le pare-feu.
+
+### Prochaines étapes
+- Packet Capture pfSense et capture Wireshark filtrée (CAP-PF-026 et 027).
+- Rangement des captures de la Phase 3.
+- Phase 5 : durcissement de Windows 10.
