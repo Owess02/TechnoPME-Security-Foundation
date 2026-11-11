@@ -59,3 +59,19 @@
 
 ### Prochaines étapes
 - DHCP sur LAN_USERS et LAN_GUESTS, DNS Resolver, règles de pare-feu.
+
+## 2026-11-11 — Phase 3
+
+### Réalisations
+- DHCP activé sur LAN_USERS et LAN_GUESTS.
+- DNS Resolver configuré.
+- VM Windows 10 rattachée à LAN_USERS, IP 192.168.10.50 obtenue par DHCP.
+- Tests ping, DNS, HTTPS validés.
+- Captures Wireshark : DHCP, DNS, ICMP, HTTPS.
+
+### Difficultés
+- Erreur DNS Resolver (Localhost obligatoire).
+
+### Prochaines étapes
+- Phase 4 : alias, règles de pare-feu, journalisation, tests de blocage entre zones.
+- Supprimer la règle temporaire de LAN_USERS.
