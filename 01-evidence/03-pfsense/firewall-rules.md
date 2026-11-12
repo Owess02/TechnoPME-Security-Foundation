@@ -66,4 +66,3 @@ Les règles « Default allow LAN to any » (IPv4 et IPv6) sont désactivées.
 ## 8. Preuves
 
 - CAP-PF-015 à CAP-PF-025 dans `01-evidence/03-pfsense/`.
-- Non réalisées pour l'instant : CAP-PF-026 (Packet Capture) et CAP-PF-027 (Wireshark filtré).
